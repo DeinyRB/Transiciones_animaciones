@@ -11,6 +11,7 @@ body {
 .gato {
   width: 100%;
 }
+
 .gato__img {
   position: relative;
   z-index: 1;
@@ -20,3 +21,5 @@ body {
   left: 30rem;
   animation: desplazar1 16s ease-in-out;
 }
+
+/*# sourceMappingURL=style,css.map */
