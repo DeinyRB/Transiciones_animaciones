@@ -22,4 +22,22 @@ body {
   animation: desplazar1 16s ease-in-out;
 }
 
+@keyframes desplazar1 {
+  0% {
+    margin: 0;
+  }
+  25% {
+    margin-left: -1150px;
+  }
+  50% {
+    margin-top: 0px;
+  }
+  75% {
+    margin-left: 0;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
 /*# sourceMappingURL=style,css.map */
