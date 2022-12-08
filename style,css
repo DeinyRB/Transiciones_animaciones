@@ -53,4 +53,26 @@ body {
   animation: desplazar 8s ease-in-out;
 }
 
+.perro__img:hover {
+  animation-play-state: paused; /*pausar la imagen cuando le coloque el cursor*/
+}
+
+@keyframes desplazar {
+  0% {
+    margin: 0;
+  }
+  25% {
+    margin-left: -1310px;
+  }
+  50% {
+    margin-top: 100px;
+  }
+  75% {
+    margin-left: 0;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
 /*# sourceMappingURL=style,css.map */
